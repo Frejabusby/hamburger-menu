@@ -9,10 +9,22 @@ class Header extends React.Component {
     return (
       <header>
         <Grid className="header-grid">
-          <a href="http://technigo.io">Technigo</a>
-          <a href="http://technigo.io">Boot Camp</a>
-          <a href="http://technigo.io">Stories</a>
-          <a href="http://technigo.io">About</a>
+          <label for="hamburger" className="hamburger-label">
+            <span className="hamburger-line-1"></span>
+            <span className="hamburger-line-2"></span>
+            <span className="hamburger-line-3"></span>
+          </label>
+
+          <input id="hamburger" type="checkbox" className="hamburger-checkbox" name="" value="" />
+
+          <nav class="menu">
+            <ul>
+              <li><a href="http://technigo.io">Technigo</a></li>
+              <li><a href="http://technigo.io">Boot Camp</a></li>
+              <li><a href="http://technigo.io">Stories</a></li>
+              <li><a href="http://technigo.io">About</a></li>
+            </ul>
+          </nav>
         </Grid>
       </header>
     )
