@@ -10,14 +10,14 @@ class Header extends React.Component {
       <header>
         <Grid className="header-grid">
           <label for="hamburger" className="hamburger-label">
-            <span className="hamburger-line-1"></span>
-            <span className="hamburger-line-2"></span>
-            <span className="hamburger-line-3"></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </label>
 
-          <input id="hamburger" type="checkbox" className="hamburger-checkbox" name="" value="" />
+          <input id="hamburger" type="checkbox" className="hamburger-checkbox" />
 
-          <nav class="menu">
+          <nav className="menu">
             <ul>
               <li><a href="http://technigo.io">Technigo</a></li>
               <li><a href="http://technigo.io">Boot Camp</a></li>
